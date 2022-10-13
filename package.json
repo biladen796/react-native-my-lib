@@ -35,7 +35,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/biladen796/react-native-my-lib",
+  "repository": "https://github.com/biladen796/react-native-my-lib.git",
   "author": "do xuan tien <doxuantien96@gmail.com> (https://github.com/biladen796)",
   "license": "MIT",
   "bugs": {
