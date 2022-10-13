@@ -1,5 +1,5 @@
 {
-  "name": "react-native-my-lib",
+  "name": "@doxuantien/react-native-my-lib",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
