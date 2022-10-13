@@ -3,6 +3,7 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
+#import "RCTAppleHealthKit.h"
 
 #import <React/RCTAppSetupUtils.h>
 
@@ -42,6 +43,7 @@
 #endif
 
   UIView *rootView = RCTAppSetupDefaultRootView(bridge, @"main", nil);
+  [[RCTAppleHealthKit new] initializeBackgroundObservers:bridge];
 
   if (@available(iOS 13.0, *)) {
     rootView.backgroundColor = [UIColor systemBackgroundColor];
