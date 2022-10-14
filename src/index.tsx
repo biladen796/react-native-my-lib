@@ -19,7 +19,7 @@ import StackNavigation from './navigation/stackNavigation';
 
 // type MyLibProps = {
 //   color: string;
-//   style: ViewStyle;
+//   style: ViewStyle; 
 // };
 
 export const getDailyStepCount = () => {
